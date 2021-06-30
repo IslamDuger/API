@@ -16,8 +16,9 @@ public class GetRequest04 {
 //    ve content type'inin "application/json"
 //    ve firstname'in “Jim"
 //    ve totalprice’in 600
-//    ve checkin date'in 2015-06-12"oldugunu test edin
+//     checkin date'in 2015-06-12"oldugunu test edin
     @Test
+
     public void test01(){
         String url="https://restful-booker.herokuapp.com/booking/5";
         Response response=given().accept("application/json").when().get(url);
@@ -29,7 +30,9 @@ public class GetRequest04 {
                  "totalprice",equalTo(764),
                 "bookingdates.checkin",equalTo("2015-04-15"));
 
+
         response.prettyPrint();
+
 
     }
 

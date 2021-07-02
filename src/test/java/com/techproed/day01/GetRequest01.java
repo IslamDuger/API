@@ -1,4 +1,4 @@
-package com.techproed.Day01;
+package com.techproed.day01;
 
 import static io.restassured.RestAssured.given;
 

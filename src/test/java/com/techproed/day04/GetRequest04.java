@@ -1,8 +1,7 @@
-package com.techproed.Day04;
+package com.techproed.day04;
 
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import org.hamcrest.Matchers;
 import org.junit.Test;
 
 import static io.restassured.RestAssured.given;

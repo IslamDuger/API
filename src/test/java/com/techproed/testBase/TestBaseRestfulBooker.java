@@ -8,7 +8,7 @@ public class TestBaseRestfulBooker {
     protected RequestSpecification spec01;
     @Before
     public void setup(){
-        spec01=new RequestSpecBuilder().setBaseUri("http://dummy.restapiexample.com").
+        spec01=new RequestSpecBuilder().setBaseUri("https://restful-booker.herokuapp.com").
                 build();
 
     }
